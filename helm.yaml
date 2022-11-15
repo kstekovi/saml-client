@@ -1,0 +1,9 @@
+build:
+  uri: https://github.com/wildfly/wildfly-s2i
+  contextDir: examples/elytron-oidc-client
+deploy:
+  env:
+    # this env var is used to specify the provider-url field in keycloak.json
+    # - name: OIDC_PROVIDER_URL
+    #   value: <SSO WildFly Realm>
+    

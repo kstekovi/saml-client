@@ -1,0 +1,9 @@
+{
+  "provider-url": "${env.OIDC_PROVIDER_URL}",
+  "ssl-required": "external",
+  "allow-any-hostname": true,
+  "disable-trust-manager": true,
+  "client-id": "simple-webapp",
+  "public-client": true,
+  "confidential-port": 0
+}
