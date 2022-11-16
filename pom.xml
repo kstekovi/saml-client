@@ -51,7 +51,6 @@
                     </feature-packs>
                     <layers>
                         <layer>cloud-server</layer>
-                        <layer>elytron-oidc-client</layer>
                     </layers>
                     <runtime-name>ROOT.war</runtime-name>
                 </configuration>
