@@ -1,0 +1,33 @@
+<secure-deployment name="ROOT.war">
+    <SP entityID="my-specific-entity-ID"
+        sslPolicy="EXTERNAL"
+        logoutPage="index.html">
+        <Keys>
+            <Key signing="true">
+                <PrivateKeyPem>
+                    MIIEowIBAAKCAQEAmPP/yV+6HI7MvlAQRI7IFdP4P1zuF8LsnhLnuuaF6ScTK8PC/1wGXuinCMq/t0FANrT0vUqJLNjNlAXe8GNOrGUq2NYbEwaAD56n28MHAqh0739d6udywGwGwMelCSS1bXU/Y+QOMuo4QhUGBZhx36d+svwuWUa2j9C87Bfw+tVwD7Vts1VU21RKYEKhOPZ056F2V7wsSVx4qdpmWjzFcJZS6seVzTijlnIV7mJb2f3qE7chjKGWi+HFF2h8Kd4RDuzZ8WSzBIhRgEg519doRmSeQmekeHF+SG9eFcqSkebmG8Ex/3f0IhRud41L/BeXxqTdQNlCHvhD/Y/56wF80QIDAQABAoIBAGGf63U2um2b36bhJ2D62U7FWr/mqrlT2v8SBgJPPM2R+TSH4KBotlBBosuDzVZEOZ4xZbykJGYRgzWlgaRhXke+0thP4DwGfBp8I5urIYBa0ThETUevrpiO2siVJQtu+LYCjhFN8Joi0QGstYlAwf4ExGOtfk/RSJkGnG784PzX26AFIY3yJw+0MLz5ap7fThE6i3+uvBl2Urp1p3eVFSEUo5kcuzSVl8q5JNwCifEwDpOD7QYxajRvTkvfIAwaRYzOH2Gzpn/8b5pZcoWOlMBtp19VUU3SrDpsGp5AN+phoop1ct4/U+CXerWOa5wbXFcNp9UH1ZzAIRz4CnH164ECgYEA4pgtNvIOOWRN30ItDm12apdKUopfay05nAJ6hmSTag8753506rkCRLxAryfpnkE57q6OIJEp5UFQlNdmejQvJ8ZJcGaAawb/5XeIBGBIPfiRfadt8GcSsYEdvr8ryhyxVNh2D/4MnrmzTTYNdiiA9c48n6xcfmwDJ+BjHmXaWPkCgYEArM1XnIMNIeRO/J6nCUntgl93HlqfedwLe3m6qNXSZ9bxyaw9AGJDGQupUcnwcsNP1oGgnCkYfLvKUgZ4luamio04nfFxzJBxsd70+4RB9AzQxCmnMIRzfDhm/9Yk1a+GANFdC0o4wdFtXKmeSAKreYbbR3D4B52G2kGFYYL40JkCgYEApuIi8sOlHDm2bIZlfqm5u9k+4LmOevXs5uygZphuRX+AxAbLfw/RDuSC0z2W/nnVe+dNP8kJzRGkkmpty/ThAe80qTakv66BCvRU1bw/mHyYUq3b92FCUD7itFhBnPIy3GUr1q1piAEGgAgeM/ayu9Yvqf2chXNxg43sEjg7bqkCgYAEtYvfrgqbk9c7Ny+iJyub0/IxF5MlBQQjF0wo8brMLaVlM5Zt/j+J3TF+ExzEY+I3HE0+NDiAnbWDyr1aj2qWeAbE9yF8y6rth//xIseRWRAPaHsv7UwgZIEaE8HpOOFUAGCiwCEP1x892TmBCOGXbD9pkQCRZI+aPxLdd25EcQKBgHS1lvWQg10/1LAxS7LKMTj2zetP3bISu8i3izRuYbpgAL8ji3tMogLmz1NCCnB/v8g7MPk8SYYEvMy2p0ChMJbohNf+hLk5OtBCcztrpLFx4ip1aK+I8Ejr4OaKKYiieevh29BFbXTSdnUsPnHlGIRQ+muXil/0IdzHXFP4ZGDh
+                </PrivateKeyPem>
+                <CertificatePem>
+                    MIICqzCCAZMCBgGEo/cG6TANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDDA5teS1zYW1sLWNsaWVudDAeFw0yMjExMjMxMDA4MDZaFw0zMjExMjMxMDA5NDZaMBkxFzAVBgNVBAMMDm15LXNhbWwtY2xpZW50MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmPP/yV+6HI7MvlAQRI7IFdP4P1zuF8LsnhLnuuaF6ScTK8PC/1wGXuinCMq/t0FANrT0vUqJLNjNlAXe8GNOrGUq2NYbEwaAD56n28MHAqh0739d6udywGwGwMelCSS1bXU/Y+QOMuo4QhUGBZhx36d+svwuWUa2j9C87Bfw+tVwD7Vts1VU21RKYEKhOPZ056F2V7wsSVx4qdpmWjzFcJZS6seVzTijlnIV7mJb2f3qE7chjKGWi+HFF2h8Kd4RDuzZ8WSzBIhRgEg519doRmSeQmekeHF+SG9eFcqSkebmG8Ex/3f0IhRud41L/BeXxqTdQNlCHvhD/Y/56wF80QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAl1mMJKaC4RWbjMzK4zrnLoneU/LhcsPJUpA+bSGEOTlJRUUwssqNB6C+VNT6PrvtG6emytZtcZinaDbEKUWJwOoRAwSBmxwAsO5KYOFQJjj66iqEvSDX45B/NsTUr30GBSc5peD9QbE2v6+37fCKtyFONJ9JxDZBJ9JorrT19uW+z0CMaR06oYFzWQtqWRn4+zhRvCiEytEbzYr930Zn01wJzsp6PvQscRL6OT8mJNv4DBn38DedU4XUom9Uv4Q92oB/s26PsLET5MPKatISaaNhQcpwLCQt982JvJrpvd7/euI2HBGajS7CgJjrkfMlG2o9hX/udMvo3VFTT/++3
+                </CertificatePem>
+            </Key>
+        </Keys>
+        <IDP entityID="idp"
+             signatureAlgorithm="RSA_SHA256"
+             signatureCanonicalizationMethod="http://www.w3.org/2001/10/xml-exc-c14n#">
+            <SingleSignOnService signRequest="true"
+                                 validateResponseSignature="true"
+                                 validateAssertionSignature="false"
+                                 requestBinding="POST"
+                                 bindingUrl="https://keycloak-saml-test.apps.jstourac-qdku.eapqe.psi.redhat.com/auth/realms/my-realm/protocol/saml"/>
+            <SingleLogoutService signRequest="true"
+                                 signResponse="true"
+                                 validateRequestSignature="true"
+                                 validateResponseSignature="true"
+                                 requestBinding="POST"
+                                 responseBinding="POST"
+                                 postBindingUrl="https://keycloak-saml-test.apps.jstourac-qdku.eapqe.psi.redhat.com/auth/realms/my-realm/protocol/saml"
+                                 redirectBindingUrl="https://keycloak-saml-test.apps.jstourac-qdku.eapqe.psi.redhat.com/auth/realms/my-realm/protocol/saml"/>
+        </IDP>
+    </SP>
+</secure-deployment>
