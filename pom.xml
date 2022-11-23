@@ -50,7 +50,7 @@
                         </feature-pack>
                     </feature-packs>
                     <layers>
-                        <layer>cloud-server</layer>
+                        <layer>cloud-default-config</layer>
                     </layers>
                     <runtime-name>ROOT.war</runtime-name>
                 </configuration>
